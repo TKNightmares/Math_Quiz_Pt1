@@ -1,0 +1,19 @@
+body{
+font-size: 40px;
+background-color: rgb(8, 8, 73);
+border-radius: 20px;
+margin-top: 10px;
+}
+
+.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 30px;
+		float: none;
+		border-radius: 15px;
+	}
+
+h1, label{
+    font-family: 'Courier New', Courier, monospace;
+}
+

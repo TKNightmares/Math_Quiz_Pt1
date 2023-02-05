@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Competitive Math Quiz</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            
+        <link rel="stylesheet" type="text/css" href="quiz_game.css">
+        <script src="quiz_game_login.js"></script>
+
+        <style>
+            body {
+                background: rgb(39, 39, 39);
+            }
+      
+            h1 {
+      
+                font-size: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+                background: linear-gradient(to right, #f32170,
+                        #3f00eb, #fa0000, #01cb70);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+        </style>
+
+    </head>
+    <center>
+    <body>
+        <div id="col-lg-4 col-sm-8 col-xs-11 login_div1">
+            <h1 style="color:aliceblue">Player 1 Login Here</h1>
+            <label style="color: rgb(103, 0, 0)">Username: </label>
+            <input type="text" id="player_1_input" class="form-control" placeholder="Player 1 name">
+        </div>
+        <br>
+
+        <div id="col-lg-4 col-sm-8 col-xs-11 login_div2">
+            <h1 style="color:aliceblue">Player 2 Login Here</h1>
+            <label style="color: rgb(103, 0, 0)">Username: </label>
+            <input type="text" id="player_2_input" class="form-control" placeholder="Player 2 name">
+        </div>
+        <br>
+
+        <button style="width:30%" class="btn btn-primary" onclick="addUser()">Add User</button>
+
+    </body>
+</center>
+
+
+</html>
+
